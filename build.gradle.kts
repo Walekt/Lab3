@@ -18,6 +18,12 @@ dependencies {
     testImplementation ("org.junit.jupiter:junit-jupiter-api:5.10.0")
     testRuntimeOnly ("org.junit.jupiter:junit-jupiter-engine:5.10.0")
     implementation ("com.google.code.gson:gson:2.12.1")
+    implementation ("com.google.code.gson:gson:2.12.1")
+    compileOnly ("org.projectlombok:lombok:1.18.26")
+    annotationProcessor ("org.projectlombok:lombok:1.18.26")
+
+    testImplementation(platform("org.junit:junit-bom:5.10.0"))
+    testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
 

@@ -7,14 +7,14 @@ import java.util.stream.*;
 import java.util.Set;
 import java.io.FileReader;
 
-import com.google.gson;
+import com.google.gson.Gson;
 
 public class Main {
     public static void main(String[] args) {
 
         try {
             FileReader reader = new FileReader("books.json");
-            org.example.Gson gson = new Gson();
+            Gson gson = new Gson();
             Person[] visitors = gson.fromJson(reader, Person[].class);
 
             // Задание 1
