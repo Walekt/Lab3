@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation ("com.google.code.gson:gson:2.12.1")
     implementation ("org.projectlombok:lombok:1.18.30")
     annotationProcessor ("org.projectlombok:lombok:1.18.30")
     testImplementation ("org.projectlombok:lombok:1.18.30")

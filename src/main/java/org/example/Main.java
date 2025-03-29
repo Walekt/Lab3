@@ -14,7 +14,7 @@ public class Main {
 
         try {
             FileReader reader = new FileReader("books.json");
-            Gson gson = new Gson();
+            org.example.Gson gson = new Gson();
             Person[] visitors = gson.fromJson(reader, Person[].class);
 
             // Задание 1
