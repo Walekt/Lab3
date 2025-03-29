@@ -7,7 +7,7 @@ import java.util.stream.*;
 import java.util.Set;
 import java.io.FileReader;
 
-import com.google.gson.Gson;
+import com.google.gson;
 
 public class Main {
     public static void main(String[] args) {
